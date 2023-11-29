@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <link rel="icon"  href="logo.png" type="image/x-icon">
+  <title>Donate Blood</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="/css/bootstrap.css" type="text/css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head> 
+<body>
+<header class="main-header">
+  <div class="container">
+    <div class="branding grid-row">
+      <div class="logo">
+        <a href="#"><img id="logo" src="logo.png" alt="logo" ></a>
+      </div>
+      <span class="mobile-menu-btn desktop-hide"><i class="fa fa-bars"></i></span>
+      <nav class="navbar mobile-menu">
+        <span class="close-menu desktop-hide"><i class="fa fa-times"></i></span>
+        <ul class="nav-listing">
+          <li><a href="https://www.redcross.org/">INICIO</a></li>
+          <li><a href="https://www.inovablood.org/donate-blood/">DONATE</a></li>
+          <li><a href="https://www.redcross.org/give-blood.html">GIVE BLOOD</a></li>
+          <li><a href="https://www.redcross.org/volunteer/become-a-volunteer.html#step1">VOLUNTEER</a></li>
+          <li><a href="https://www.redcross.org/get-help.html">GET HELP</a></li>
+        </ul>
+      </nav>
+    </div>
+  </div>
+</header>
+
+<section class="main-section">
+  <div class="container">
+    <h1 class="main-heading">
+      <span>#</span>
+      <span>EVERYONE COULD</span>
+      <span>BE A HERO</span>
+    </h1>
+    <div class="grid-row">
+      <div class="left-col">
+        <p>
+          Blood donation is a voluntary act of giving a small portion of your blood to save lives. Donated blood is crucial for medical treatments, surgeries, and emergencies. It's a simple yet impactful way to contribute to the well-being of others in need.</p>
+      </div>
+
+      <div class="right-col">
+        <h2 class="dark-heading">
+          <span>You can</span>
+          <span>Help save a life</span>
+        </h2>
+        <h2 class="small-top-space">Give blood</h2>
+      </div>
+    </div>
+  </div>
+  <div class="social-icons">
+    <div class="container">
+      <ul class="listing">
+        <li><a href="https://www.facebook.com/Blooddonors/"><i class="fa fa-facebook"></i></a></li>
+        <li><a href="https://www.instagram.com/bdk_bangalore/?hl=en"><i class="fa fa-instagram"></i></a></li>
+        <li><a href="https://twitter.com/keralabloodnet?lang=en"><i class="fa fa-twitter"></i></a></li>
+        <li><a href="https://www.youtube.com/watch?v=5rTcZg8zbEI"><i class="fa fa-youtube"></i></a></li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<script type="text/javascript">
+  jQuery(".mobile-menu-btn").click(function(){
+    jQuery(".mobile-menu").addClass("show-menu")
+  }); 
+  jQuery(".close-menu").click(function(){
+    jQuery(".mobile-menu").removeClass("show-menu")
+  }); 
+</script>
+</body>
+</html>        
